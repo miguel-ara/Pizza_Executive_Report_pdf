@@ -7,7 +7,7 @@ The first one uses the files given by Maven Pizzas "order_details.csv", "orders.
 ingredients Pizza Maven´s manager should by each week of the following year. Additionaly, this program generates an xml file ("informe_pizzas_maven_2016.xml")
 which corresponds to a brief report and analysis of the data's quality. The other program, "crear_pdf.py", will be the one in charge of generating the pdf.
 
-To build such prediction, the program processes the "order_details.csv" file, applying some indispensable changes to the pizza names and the quantity,
+To build such prediction, the program "maven_pizzas_2016_pdf.py" processes the "order_details.csv" file, applying some indispensable changes to the pizza names and the quantity,
 so that every one of them has the same structure to simplify the next operations and treatment of the dataframes. Then, the program sums up all the pizzas
 that were ordered last year, differentiating pizza type and size. Then, divides that total quantity by 52 (number of weeks in a year) and takes the roof of
 the result of the division (for example, 300/52 = 5,769 => 6). Once this procediture has been done for every kind of pizza, we have the number of pizzas of
