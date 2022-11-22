@@ -1,6 +1,6 @@
 # Pizza_Executive_Report_pdf
-Based on pizza orders, determing the ingredients Pizza Maven should buy in order to become a more efficient restaurant in terms of stock management
-and saving the results of such suggestions to a xml file and to an executive report in pdf format for Pizza Maven´s COO. To do so, in the first place
+Based on pizza orders, determining the ingredients Pizza Maven should buy in order to become a more efficient restaurant in terms of stock management,
+saving the results of such suggestions to a xml file and building an executive report in pdf format with key stats for Pizza Maven´s COO. To do so, in the first place
 you have to run in the python terminal the following command: "pip install -r requirements.txt", which will automatically download the necessary
 libraries for the actual program to work correctly. In this repo you will find two executable python files: "maven_pizzas_2016_pdf.py" and "crear_pdf.py".
 The first one uses the files given by Maven Pizzas "order_details.csv", "orders.csv", "pizzas.csv" and "pizza_types.csv" to predict and estimate the
